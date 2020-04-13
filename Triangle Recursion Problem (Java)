@@ -3,7 +3,7 @@ public static int triangle(int rows) {
 			return rows;
 		}
 		else {
-			return (triangle(rows-1)+(1*rows));
+			return (triangle(rows-1)+rows);
 		}
 	}
 	public static void main(String[] args){
